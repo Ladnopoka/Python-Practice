@@ -1,0 +1,84 @@
+Essential Windows Shortcuts for Professional Programmers
+=================================================
+
+Line Navigation
+--------------
+• Home                   - Start of line
+• End                    - End of line  
+• Ctrl + Home           - Start of document
+• Ctrl + End            - End of document
+
+Word Navigation
+--------------
+• Ctrl + Left/Right     - Jump word by word
+• Ctrl + Shift + L/R    - Select word by word
+• Ctrl + D              - Select entire word under cursor
+• Ctrl + L              - Select entire line
+
+Efficient Editing
+----------------
+• Ctrl + Backspace      - Delete word to left
+• Ctrl + Delete         - Delete word to right
+• Ctrl + Shift + K      - Delete entire line
+• Ctrl + X              - Cut entire line (no selection needed)
+• Ctrl + C              - Copy entire line (no selection needed)
+• Alt + Up/Down         - Move line up/down
+• Alt + Shift + Up/Down - Duplicate line
+
+Multi-cursor & Selection
+-----------------------
+• Ctrl + Alt + Up/Down  - Add cursor above/below
+• Ctrl + D              - Select next occurrence (press multiple times)
+• Ctrl + Shift + L      - Select all occurrences
+• Alt + Shift + drag    - Column (box) selection
+• Alt + Click           - Add cursor at mouse position
+
+Code Navigation
+--------------
+• F12                   - Go to definition
+• Alt + F12             - Peek definition
+• Alt + Left Arrow      - Go back to previous position
+• Alt + Right Arrow     - Go forward
+• Ctrl + G              - Go to line number
+
+Search & Replace
+---------------
+• Ctrl + F              - Find
+• Ctrl + Shift + F      - Find in all files
+• Ctrl + H              - Replace
+• Ctrl + Shift + H      - Replace in all files
+• F3                    - Find next match
+• Shift + F3            - Find previous match
+
+Code Folding
+------------
+• Ctrl + Shift + [      - Fold region
+• Ctrl + Shift + ]      - Unfold region
+• Ctrl + K Ctrl + 0     - Fold all
+• Ctrl + K Ctrl + J     - Unfold all
+
+File/Window Management
+---------------------
+• Ctrl + N              - New file
+• Ctrl + Tab            - Switch between open files
+• Ctrl + W              - Close current file
+• Ctrl + \              - Split editor
+• Ctrl + B              - Toggle sidebar
+
+Quick Actions
+------------
+• Ctrl + Shift + P      - Show command palette
+• Ctrl + .              - Quick fix/suggestions
+• F2                    - Rename symbol
+• Alt + Shift + F       - Format document
+
+Most Used Professional Shortcuts
+------------------------------
+• Home/End              - Line navigation
+• Ctrl + Left/Right     - Word navigation
+• Ctrl + D              - Selecting occurrences
+• Alt + Up/Down         - Moving lines
+• Ctrl + Shift + K      - Deleting lines
+• F12                   - Go to definition
+
+Note: These shortcuts are based on VS Code/Cursor defaults. Most modern IDEs follow similar patterns.
