@@ -1,43 +1,91 @@
-# LeetCode Practice Environment
+# LeetCode Practice Repository
 
-This repository contains a template for solving LeetCode problems in Python.
+This repository is dedicated to my LeetCode grinding journey, focusing on mastering essential data structures and algorithms for technical interviews.
 
-## Template Structure
+## Essential Data Structures
 
-The `leetcode_template.py` file includes:
-- Common imports used in LeetCode problems
-- A `Solution` class where you implement your solution
-- A `TestSolution` class for writing test cases
-- Type hints for better code clarity
-- Common data structures and algorithms imports
+1. Arrays
+   - Foundation for many algorithms
+   - Random access, good locality
+   - Core operations: insertion, deletion, traversal
 
-## How to Use
+2. Hashmaps
+   - O(1) average case lookup
+   - Key-value pair storage
+   - Handle collisions effectively
 
-1. Copy the `leetcode_template.py` file and rename it to match your problem (e.g., `two_sum.py`)
-2. Modify the `Solution` class:
-   - Rename the `solve` method to match the problem's requirements
-   - Update the method signature with proper input and output types
-   - Implement your solution
-3. Add test cases in the `TestSolution` class
-4. Run the tests using:
-   ```bash
-   python your_solution_file.py
-   ```
+3. Trees
+   - Binary trees, BST, AVL trees
+   - Hierarchical data representation
+   - Tree traversal patterns
 
-## Common Data Structures and Algorithms
+4. Linked Lists
+   - Sequential access
+   - Dynamic size
+   - Singly and doubly linked
 
-The template includes imports for:
-- Lists, Dictionaries, and Optional types
-- Defaultdict and Deque from collections
-- Heapq for priority queues
-- Math module for mathematical operations
+5. Stacks
+   - LIFO principle
+   - Push/pop operations
+   - Used in parsing, backtracking
 
-## Tips
+6. Queues
+   - FIFO principle
+   - Enqueue/dequeue operations
+   - BFS implementation
 
-1. Always add type hints to your solution methods
-2. Write test cases for edge cases
-3. Consider time and space complexity
-4. Add comments explaining your approach
-5. Use descriptive variable names
+7. Graphs
+   - Vertices and edges
+   - Directed/undirected
+   - Weighted/unweighted
 
-Happy coding! 🚀 
+## Core Algorithms
+
+1. Insertion Sort
+   - Simple implementation
+   - Good for small n
+   - O(n²) time complexity
+
+2. Merge Sort
+   - Divide and conquer
+   - Stable sort
+   - O(n log n) time complexity
+
+3. Quick Sort
+   - In-place sorting
+   - Widely used
+   - Average O(n log n)
+
+4. Binary Search
+   - Divide and conquer
+   - Requires sorted array
+   - O(log n) time complexity
+
+5. Greedy Algorithm
+   - Local optimal choice
+   - Used for optimization
+   - Not always globally optimal
+
+6. Breadth-First Search
+   - Level by level traversal
+   - Shortest path in unweighted graphs
+   - Uses queue
+
+7. Depth-First Search
+   - Explores as far as possible
+   - Uses stack/recursion
+   - Tree/graph traversal
+
+## Big O Notation
+
+Understanding time and space complexity is crucial:
+- O(1): Constant time
+- O(log n): Logarithmic
+- O(n): Linear
+- O(n log n): Linearithmic
+- O(n²): Quadratic
+- O(2ⁿ): Exponential
+
+Remember: Always analyze both time and space complexity when solving problems!
+
+This repository serves as my reference guide for continuous learning and improvement in data structures, algorithms, and problem-solving techniques. Keep grinding! 💪
