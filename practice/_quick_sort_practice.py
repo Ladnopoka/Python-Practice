@@ -1,22 +1,6 @@
 def quick_sort(array):
-    if len(array) <= 1:
-        return array
+    print("aa")
     
-    pivot = array[-1]
-    left = []
-    right = []
-    middle = []
-
-    for i in array:
-        if pivot == i:
-            middle.append(i)
-        elif pivot > i:
-            left.append(i)
-        else:
-            right.append(i)
-
-    return quick_sort(left) + middle + quick_sort(right)
-
 def main():
     # Step 1: pivot = 9
     # Step 2: left = [5,2,8,1], middle = [9], right = []
